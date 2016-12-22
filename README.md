@@ -18,23 +18,23 @@ of your project:
 
 1. `dependencies` section:
 
-```xml
-<dependency>
-    <groupId>ar.com.grayshirts</groupId>
-    <artifactId>commons</artifactId>
-    <version>1.0.0-RC1</version>
-</dependency>
-```
+   ```xml
+   <dependency>
+       <groupId>ar.com.grayshirts</groupId>
+       <artifactId>commons</artifactId>
+       <version>1.0.0-RC1</version>
+   </dependency>
+   ```
 
 2. `repositories` section:
 
-```xml
-<repository>
-    <id>grayshirts-public</id>
-    <name>Grayshirts Public Repository</name>
-    <url>https://dl.bintray.com/grayshirts/public</url>
-</repository>
-```
+   ```xml
+   <repository>
+       <id>grayshirts-public</id>
+       <name>Grayshirts Public Repository</name>
+       <url>https://dl.bintray.com/grayshirts/public</url>
+   </repository>
+   ```
 
 ### Gradle
 
@@ -43,17 +43,17 @@ of your project:
 
 1. `dependencies` section:
 
-```
-compile 'ar.com.grayshirts:commons:1.0.0-RC1'
-```
+   ```
+   compile 'ar.com.grayshirts:commons:1.0.0-RC1'
+   ```
 
 2. `repositories` section:
 
-```
-maven() {
-    url "https://dl.bintray.com/grayshirts/public"
-}
-```
+   ```
+   maven() {
+       url "https://dl.bintray.com/grayshirts/public"
+   }
+   ```
 
 If you build this library locally with Maven, and you want
 to include in a Gradle project the local build, add
