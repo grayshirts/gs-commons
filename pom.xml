@@ -107,7 +107,7 @@
         <repository>
             <id>grayshirts-public</id>
             <name>grayshirts-public</name>
-            <url>https://api.bintray.com/maven/grayshirts/public/gs-commons/;publish=1</url>
+            <url>https://api.bintray.com/maven/grayshirts/public/${project.name}/;publish=1</url>
         </repository>
     </distributionManagement>
 </project>
