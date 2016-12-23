@@ -13,7 +13,7 @@ tool, these are the configuration settings you need:
 
 ### Maven
 
-Add the following configuration to the `pom.xml` configuration file
+Add the following configuration to the `pom.xml` file
 of your project:
 
 1. `dependencies` section:
@@ -38,7 +38,7 @@ of your project:
 
 ### Gradle
 
-Add the following configuration to the `pom.xml` configuration file
+Add the following configuration to the `build.gradle` file
 of your project:
 
 1. `dependencies` section:
@@ -93,6 +93,11 @@ file (`~/.bashrc`, `~/.zshrc`, `~/.profile`...) like this:
 export BINTRAY_USERNAME="myusername"
 export BINTRAY_PASSWORD="XXXXXXXXXXXXXXXXXXXXXXXX"
 ```
+
+Also remember to update the _version_ number of the
+library before publish a new release from
+the `pom.xml` file.
+
 
 About
 -----
