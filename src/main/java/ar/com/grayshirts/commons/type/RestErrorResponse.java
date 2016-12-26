@@ -6,19 +6,19 @@ package ar.com.grayshirts.commons.type;
  */
 public class RestErrorResponse extends RestResponse {
 
-    private String errorCode;
+    private String error;
 
     public RestErrorResponse() { }
 
-    public RestErrorResponse(int statusCode, String message, String errorCode) {
-        super(statusCode, message);
-        this.errorCode = errorCode;
+    public RestErrorResponse(int status, String message, String error) {
+        super(status, message);
+        this.error = error;
     }
 
-    public String getErrorCode() {
-        return errorCode;
+    public String getError() {
+        return error;
     }
-    public void setErrorCode(String errorCode) {
-        this.errorCode = errorCode;
+    public void setError(String error) {
+        this.error = error;
     }
 }

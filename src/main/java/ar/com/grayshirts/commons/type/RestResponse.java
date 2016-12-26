@@ -7,21 +7,21 @@ import java.io.Serializable;
  */
 public class RestResponse implements Serializable {
 
-    private int statusCode;
+    private int status;
     private String message;
 
     public RestResponse() { }
 
-    public RestResponse(int statusCode, String message) {
-        this.statusCode = statusCode;
+    public RestResponse(int status, String message) {
+        this.status = status;
         this.message = message;
     }
 
-    public int getStatusCode() {
-        return statusCode;
+    public int getStatus() {
+        return status;
     }
-    public void setStatusCode(int statusCode) {
-        this.statusCode = statusCode;
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public String getMessage() {

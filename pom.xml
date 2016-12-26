@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ar.com.grayshirts</groupId>
     <artifactId>commons</artifactId>
-    <version>1.0.0-RC1</version>
+    <version>1.0.0-RC2</version>
     <name>gs-commons</name>
     <url>https://github.com/grayshirts/gs-commons</url>
 
