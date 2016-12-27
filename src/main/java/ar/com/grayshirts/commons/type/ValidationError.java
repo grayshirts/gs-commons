@@ -14,6 +14,10 @@ public class ValidationError implements Serializable {
 		this.message = message;
 	}
 
+	public String toString() {
+	    return "field='" + field + "',message='" + message + "'";
+    }
+
     public String getField() {
         return field;
     }

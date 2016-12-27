@@ -15,6 +15,10 @@ public class RestErrorResponse extends RestResponse {
         this.error = error;
     }
 
+    public String toString() {
+        return super.toString() + ",error='" + error + "'";
+    }
+
     public String getError() {
         return error;
     }

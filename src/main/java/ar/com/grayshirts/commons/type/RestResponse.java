@@ -17,6 +17,10 @@ public class RestResponse implements Serializable {
         this.message = message;
     }
 
+    public String toString() {
+        return "status=" + status + ",message='" + message + "'";
+    }
+
     public int getStatus() {
         return status;
     }

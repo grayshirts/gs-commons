@@ -1,6 +1,7 @@
 package ar.com.grayshirts.commons.type;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class RestValidationErrorsResponse extends RestErrorResponse {
 
@@ -12,6 +13,13 @@ public class RestValidationErrorsResponse extends RestErrorResponse {
 		super(statusCode, message, errorCode);
 		this.errors = errors;
 	}
+
+    public String toString() {
+        return super.toString() +
+            ",errors=[" +
+                errors.stream().map(e->"{"+e.toString()+"}").collect(Collectors.joining(",")) +
+            "]";
+    }
 
 	public List<ValidationError> getErrors() {
 		return errors;
