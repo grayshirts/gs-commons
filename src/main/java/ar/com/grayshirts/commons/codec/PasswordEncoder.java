@@ -44,7 +44,7 @@ public class PasswordEncoder /* implements org.springframework.security.crypto.p
      */
     protected CharSequence addSalt(CharSequence rawPassword) {
         if (StringUtils.isNotEmpty(saltCode)) {
-            return rawPassword.toString() + "+" + saltCode;
+            return rawPassword.toString() + saltCode;
         }
         return rawPassword;
     }

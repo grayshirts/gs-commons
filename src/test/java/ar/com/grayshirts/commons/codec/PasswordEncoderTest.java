@@ -8,7 +8,7 @@ import static org.apache.commons.lang3.RandomStringUtils.random;
 
 public class PasswordEncoderTest {
 
-    private PasswordEncoder passwordEncoder = new PasswordEncoder("sAltCod..e");
+    private PasswordEncoder passwordEncoder = new PasswordEncoder("+sAltCod..e");
 
     // echo -n "admin+sAltCod..e" | sha256sum
     private static final String ADMIN_ENCODED = "2b4a41990dfed30d46371a60396cc704d48e399c7cd518ff09fbadd4c46e879b";
