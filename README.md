@@ -22,7 +22,7 @@ of your project:
    <dependency>
        <groupId>ar.com.grayshirts</groupId>
        <artifactId>commons</artifactId>
-       <version>1.0.0-RC1</version>
+       <version>1.0.0</version>
    </dependency>
    ```
 
@@ -44,7 +44,7 @@ of your project:
 1. `dependencies` section:
 
    ```
-   compile 'ar.com.grayshirts:commons:1.0.0-RC1'
+   compile 'ar.com.grayshirts:commons:1.0.0'
    ```
 
 2. `repositories` section:
@@ -97,6 +97,8 @@ export BINTRAY_PASSWORD="XXXXXXXXXXXXXXXXXXXXXXXX"
 Also remember to update the _version_ number of the
 library before publish a new release from
 the `pom.xml` file.
+
+To see all the releases, check https://bintray.com/grayshirts/public/gs-commons
 
 
 About
