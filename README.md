@@ -22,7 +22,7 @@ of your project:
    <dependency>
        <groupId>ar.com.grayshirts</groupId>
        <artifactId>commons</artifactId>
-       <version>1.0.0</version>
+       <version>1.1.0</version>
    </dependency>
    ```
 
@@ -44,7 +44,7 @@ of your project:
 1. `dependencies` section:
 
    ```
-   compile 'ar.com.grayshirts:commons:1.0.0'
+   compile 'ar.com.grayshirts:commons:1.1.0'
    ```
 
 2. `repositories` section:
